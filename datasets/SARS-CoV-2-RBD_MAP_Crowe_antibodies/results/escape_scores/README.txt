@@ -1,0 +1,1 @@
+scores.csv is available from https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_Crowe_antibodies/tree/master/results/escape_scores

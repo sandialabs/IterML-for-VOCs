@@ -1,0 +1,1 @@
+expression_meanFs.csv  is available from https://github.com/jbloomlab/SARS-CoV-2-RBD_DMS/tree/master/results/expression_meanFs/expression_meanFs.csv 

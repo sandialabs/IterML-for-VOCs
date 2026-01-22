@@ -1,0 +1,1 @@
+binding_Kds.csv is available from https://github.com/jbloomlab/SARS-CoV-2-RBD_DMS/tree/master/results/binding_Kds/binding_Kds.csv
