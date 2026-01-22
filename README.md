@@ -1,6 +1,5 @@
 Companion repository to "Combining Machine Learning and Iterative Experiments to Keep Pace with Emerging Viral Variants of Concern"
-Thomas Sheffield, Ryan C. Bruneau, Stephen Won, Kenneth L. Sale, Brooke Harmon, Le Thanh Mai Pham   
-PLOS Computational Biology 2026
+Thomas Sheffield, Ryan C. Bruneau, Stephen Won, Kenneth L. Sale, Brooke Harmon, Le Thanh Mai Pham. PLOS Computational Biology (2026)
 
 
 
@@ -17,9 +16,9 @@ xgboost 1.7.10.1
 ranger 0.17.0  
 seqinr 4.2-36  
 gplots 3.2.0  
-RColorBrewer 1.1-3 
+RColorBrewer 1.1-3
 
-&nbsp;
+
 
 Python Libraries:  
 python 3.9.15  
@@ -37,7 +36,7 @@ public data NN models used to inform the RF models and select variants. I have a
 
 
 
-\*\*\*\****Data***  
+***Data***  
 
 
 Where to find public data:  
@@ -72,7 +71,7 @@ output/var\_muts.csv (from var\_muts())
 
 
 
-**Data preprocessing**\*\*\*\*\*  
+**Data preprocessing** 
 R/ml\_preprocess.R  
 R/mai\_antib\_bind.R  
 R/conc\_resp.R  
@@ -83,9 +82,9 @@ R/combined\_preprocess.R
 source("R/ml\_preprocess.R")  
 PEx:  ml\_preprocess("express")  
 PACE: ml\_preprocess("bind")  
-PAnti: ml\_preprocess("log\_escape") 
+PAnti: ml\_preprocess("log\_escape")
 
-&nbsp;
+
 
 source("R/mai\_antib\_bind.R")  
 I1: mai\_antib\_bind("12\_20\_2022")  
@@ -105,7 +104,7 @@ output/mai\_antib\_kds\_\*.csv
 
 
 
-***Public NNs***\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
+***Public NNs*** 
 R/starr\_ml.R  
 R/ml\_features.R  
 R/ml\_plot.R  
@@ -146,7 +145,7 @@ output/ml\_log\_escape\*/
 
 
 
-\*\*\*\****Predictions and variant selection***  
+***Predictions and variant selection***  
 R/ml\_predict.R  
 R/site\_chooser.R  
 
@@ -170,7 +169,7 @@ output/Variant\_Selection\_\*.xlsx
 
 
 
-\*\*\*\****Ix\_RF Models***  
+***Ix\_RF Models***  
 R/mai\_antib\_model.R  
 
 
@@ -186,7 +185,7 @@ Key output locations: output/mai\_antib\_model/
 
 
 
-***Com\_NN***\*\*\*  
+***Com\_NN***  
 R/combined\_ml.R  
 R/combined\_features.R  
 R/combined\_plot.R  
@@ -205,7 +204,7 @@ Key output locations: output/antibody\*/
 
 
 
-**Com\_Epi**\*\*\*\*\*  
+**Com\_Epi**  
 R/combined\_ml.R  
 
 
@@ -220,7 +219,7 @@ Key output locations: output/binding\_epistasis\*/
 
 
 
-***Figs 5 and 6***\*\*\*\*\*\*  
+***Figs 5 and 6***  
 R/site\_chooser.R  
 R/binding\_interactions.R
 
