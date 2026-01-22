@@ -71,7 +71,7 @@ output/var\_muts.csv (from var\_muts())
 
 
 
-**Data preprocessing** 
+**Data preprocessing**  
 R/ml\_preprocess.R  
 R/mai\_antib\_bind.R  
 R/conc\_resp.R  
@@ -104,7 +104,7 @@ output/mai\_antib\_kds\_\*.csv
 
 
 
-***Public NNs*** 
+***Public NNs***  
 R/starr\_ml.R  
 R/ml\_features.R  
 R/ml\_plot.R  
