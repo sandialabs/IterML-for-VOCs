@@ -236,3 +236,13 @@ Region Interaction (Fig 7) binding\_interactions()
 Key output locations: output/binding\_combined\_site\_regions.pdf  
 output/binding\_epistasis\_epistasis\_none\_onefold\_deltawuhan\_fixscale/reg\_int\_plot\_final.pdf
 
+
+
+***REVISION: Supplementary Figure 2***
+R/mai\_antib\_model\_REVISION.R
+
+
+
+source("R/mai\_antib\_model\_REVISION.R") 
+Supplementary Fig 2      same\_holdout\_plotter()
+
