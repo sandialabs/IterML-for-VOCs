@@ -238,7 +238,7 @@ output/binding\_epistasis\_epistasis\_none\_onefold\_deltawuhan\_fixscale/reg\_i
 
 
 
-***REVISION: Supplementary Figure 2***
+***REVISION: Supplementary Figure 2***  
 R/mai\_antib\_model\_REVISION.R
 
 
